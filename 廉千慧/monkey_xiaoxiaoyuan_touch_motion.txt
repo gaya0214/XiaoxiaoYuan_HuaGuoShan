@@ -1,0 +1,202 @@
+  bash arg: -p
+  bash arg: com.google.blockly.demo
+  bash arg: --throttle
+  bash arg: 200
+  bash arg: --pct-touch
+  bash arg: 10
+  bash arg: --pct-motion
+  bash arg: 20
+  bash arg: -s
+  bash arg: 1234
+  bash arg: -v
+  bash arg: 1000
+:Monkey: seed=1234 count=1000
+:AllowPackage: com.google.blockly.demo
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 10.0%
+//   1: 20.0%
+//   2: 1.8666667%
+//   3: 14.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 23.333334%
+//   7: 14.0%
+//   8: 1.8666667%
+//   9: 1.8666667%
+//   10: 0.93333334%
+//   11: 12.133333%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Touch (ACTION_DOWN): 0:(653.0,2364.0)
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(710.17316,2334.4404)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(1293.0,1326.0)
+:Sending Touch (ACTION_UP): 0:(1289.5208,1338.5101)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Touch (ACTION_DOWN): 0:(2050.0,154.0)
+:Sending Touch (ACTION_UP): 0:(2064.6624,193.74254)
+:Sending Touch (ACTION_DOWN): 0:(884.0,800.0)
+:Sending Touch (ACTION_UP): 0:(884.15063,790.8701)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(799.0,508.0)
+:Sending Touch (ACTION_UP): 0:(789.35583,513.8383)
+:Sending Touch (ACTION_DOWN): 0:(557.0,180.0)
+:Sending Touch (ACTION_UP): 0:(545.80426,185.43143)
+:Sending Touch (ACTION_DOWN): 0:(2267.0,456.0)
+:Sending Touch (ACTION_UP): 0:(2286.1157,455.343)
+:Sending Touch (ACTION_DOWN): 0:(2075.0,884.0)
+:Sending Touch (ACTION_UP): 0:(2094.0083,887.535)
+:Sending Touch (ACTION_DOWN): 0:(1540.0,106.0)
+    //[calendar_time:2019-05-08 01:02:04.817  system_uptime:4742473]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(1576.5378,138.02017)
+:Sending Touch (ACTION_DOWN): 0:(2271.0,106.0)
+:Sending Touch (ACTION_UP): 0:(2270.8901,105.84423)
+:Sending Touch (ACTION_DOWN): 0:(1845.0,77.0)
+:Sending Touch (ACTION_UP): 0:(1866.3354,83.842125)
+:Sending Touch (ACTION_DOWN): 0:(980.0,1245.0)
+:Sending Touch (ACTION_UP): 0:(1112.6797,1172.6179)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(1048.0,419.0)
+:Sending Touch (ACTION_UP): 0:(1052.2021,414.9807)
+:Sending Touch (ACTION_DOWN): 0:(2085.0,1367.0)
+:Sending Touch (ACTION_UP): 0:(2084.4058,1368.1393)
+:Sending Touch (ACTION_DOWN): 0:(2129.0,648.0)
+:Sending Touch (ACTION_UP): 0:(2160.7231,623.1509)
+:Sending Touch (ACTION_DOWN): 0:(205.0,296.0)
+:Sending Touch (ACTION_UP): 0:(270.90466,370.9444)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(416.0,1291.0)
+:Sending Touch (ACTION_UP): 0:(409.85544,1307.714)
+:Sending Touch (ACTION_DOWN): 0:(1350.0,822.0)
+:Sending Touch (ACTION_UP): 0:(1345.6827,819.03687)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Touch (ACTION_DOWN): 0:(1124.0,1239.0)
+    //[calendar_time:2019-05-08 01:02:12.188  system_uptime:4749844]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(1143.837,1246.0383)
+:Sending Touch (ACTION_DOWN): 0:(584.0,1415.0)
+:Sending Touch (ACTION_UP): 0:(582.16144,1407.9451)
+:Sending Touch (ACTION_DOWN): 0:(98.0,342.0)
+:Sending Touch (ACTION_UP): 0:(99.95462,325.02628)
+:Sending Touch (ACTION_DOWN): 0:(890.0,450.0)
+:Sending Touch (ACTION_UP): 0:(889.9897,443.32794)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(872.0,252.0)
+:Sending Touch (ACTION_UP): 0:(886.47174,272.65585)
+:Sending Touch (ACTION_DOWN): 0:(1477.0,319.0)
+:Sending Touch (ACTION_UP): 0:(1479.6648,313.12988)
+:Sending Touch (ACTION_DOWN): 0:(871.0,165.0)
+:Sending Touch (ACTION_UP): 0:(883.09955,156.50247)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(918.0,897.0)
+:Sending Touch (ACTION_UP): 0:(872.48627,829.3863)
+:Sending Touch (ACTION_DOWN): 0:(1535.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(1568.4229,1099.5939)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(162.0,836.0)
+:Sending Touch (ACTION_UP): 0:(164.96207,843.8203)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    //[calendar_time:2019-05-08 01:02:19.417  system_uptime:4757074]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(1759.0,87.0)
+:Sending Touch (ACTION_UP): 0:(1759.4138,85.41375)
+:Sending Touch (ACTION_DOWN): 0:(1151.0,663.0)
+:Sending Touch (ACTION_UP): 0:(1131.4344,604.2985)
+:Sending Touch (ACTION_DOWN): 0:(1673.0,508.0)
+:Sending Touch (ACTION_UP): 0:(1655.1251,496.42496)
+:Sending Touch (ACTION_DOWN): 0:(693.0,793.0)
+:Sending Touch (ACTION_UP): 0:(749.37714,762.53265)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+:Sending Touch (ACTION_DOWN): 0:(207.0,949.0)
+:Sending Touch (ACTION_UP): 0:(231.46077,931.4912)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Touch (ACTION_DOWN): 0:(1463.0,1417.0)
+:Sending Touch (ACTION_UP): 0:(1464.9044,1436.9352)
+:Sending Touch (ACTION_DOWN): 0:(2176.0,502.0)
+:Sending Touch (ACTION_UP): 0:(2123.588,587.0538)
+:Sending Touch (ACTION_DOWN): 0:(1990.0,317.0)
+:Sending Touch (ACTION_UP): 0:(1926.9342,312.2859)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    //[calendar_time:2019-05-08 01:02:26.493  system_uptime:4764149]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(516.0,112.0)
+:Sending Touch (ACTION_UP): 0:(494.81088,99.314644)
+:Sending Touch (ACTION_DOWN): 0:(1491.0,401.0)
+:Sending Touch (ACTION_UP): 0:(1473.68,389.00964)
+:Sending Touch (ACTION_DOWN): 0:(298.0,1178.0)
+:Sending Touch (ACTION_UP): 0:(293.96896,1170.1971)
+:Sending Touch (ACTION_DOWN): 0:(1455.0,1072.0)
+:Sending Touch (ACTION_UP): 0:(1423.2684,1055.9065)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1112.0,719.0)
+:Sending Touch (ACTION_UP): 0:(1116.6394,713.4018)
+:Sending Touch (ACTION_DOWN): 0:(1388.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(1397.9008,1348.1774)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(2142.0,187.0)
+:Sending Touch (ACTION_UP): 0:(2232.3826,110.84892)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+    //[calendar_time:2019-05-08 01:02:30.782  system_uptime:4768437]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(682.0,700.0)
+:Sending Touch (ACTION_UP): 0:(680.86664,686.4374)
+:Sending Touch (ACTION_DOWN): 0:(263.0,631.0)
+:Sending Touch (ACTION_UP): 0:(285.18085,620.9169)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Flip keyboardOpen=true
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(1604.0,966.0)
+:Sending Touch (ACTION_UP): 0:(1704.472,874.9568)
+    // activityResuming(com.google.blockly.demo)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(1239.0,1123.0)
+:Sending Touch (ACTION_UP): 0:(1283.8579,1169.0)
+    // Rejecting start of Intent { act=android.intent.action.CALL_BUTTON cmp=com.android.dialer/.app.DialtactsActivity } in package com.android.dialer
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(2232.0,653.0)
+:Sending Touch (ACTION_UP): 0:(2122.6958,729.03485)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.blockly.demo/com.google.blockly.android.demo.Welcome;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.blockly.demo/com.google.blockly.android.demo.Welcome } in package com.google.blockly.demo
+    //[calendar_time:2019-05-08 01:02:40.017  system_uptime:4777672]
+    // Sending event #600
+    //[calendar_time:2019-05-08 01:02:40.221  system_uptime:4777877]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(916.0,309.0)
+:Sending Touch (ACTION_UP): 0:(928.44946,231.41158)
+:Sending Touch (ACTION_DOWN): 0:(100.0,715.0)
+:Sending Touch (ACTION_UP): 0:(57.010696,674.4332)
+:Sending Touch (ACTION_DOWN): 0:(80.0,1359.0)
+:Sending Touch (ACTION_UP): 0:(77.59469,1359.2913)
+    // Allowing start of Intent { cmp=com.google.blockly.demo/com.google.blockly.android.demo.LuaActivity } in package com.google.blockly.demo
+:Sending Touch (ACTION_DOWN): 0:(64.0,784.0)
+:Sending Touch (ACTION_UP): 0:(59.009567,789.2299)
+** Monkey aborted due to error.
+Events injected: 623
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=11 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=50172ms (0ms mobile, 0ms wifi, 50172ms not connected)
