@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/commons-lang3-3.8.jar')
+    implementation 'org.testng:testng:6.9.6'
+    implementation 'com.google.guava:guava:27.1-jre'
+    implementation files('libs/poi-3.14-20160307.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

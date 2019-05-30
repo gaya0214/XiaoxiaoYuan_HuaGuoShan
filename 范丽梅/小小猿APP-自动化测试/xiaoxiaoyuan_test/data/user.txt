@@ -1,0 +1,5 @@
+et_userEmailOrPhone	et_userPassword
+15226511111	111111
+123456@qq.com 111111
+123456@126.com 111111
+123456@163.com 111111
