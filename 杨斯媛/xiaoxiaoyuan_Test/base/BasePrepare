@@ -1,0 +1,26 @@
+public class AndroidCreateSessionTest1{
+    private AndroidDriver<WebElement> driver;
+    @BeforeClass
+    public void setUp()throes Exception{
+        File classpathRoot=new File(System.getProperty("E://Junior2.0/Practical_Traning/"));
+        File appDir=new File(classpathRoot,"E://Junior2.0/blockly_android");
+        File app=new File(appDir.getCanonicalPath(),"ApiDemos-debug.apk");
+        DesiredCapabilities capabilities=new DesiredCapabilities();
+        capabilities.setCapability(capabilityName:"deviceName",value:"Android Emulator");
+        capabilities.setCapability(capabilityName:"app",aap.getAbsolutePath());
+        capabilities.setCapability(capabilityNmae:"appPackage",value:"io.appium.android.apis");
+        capabilities.setCapability(capabilityName:"appActivity",vale:".ApiDemos");
+        driver=new AndroidDriver<Element>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+    }
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
+    @Test
+    public void testCreateSession(){
+        String activity.driver.currentActivity();
+        String pkg=driver.getCurrentPackage();
+        Assert.assertEuals(activity,".ApiDemos");
+        Assert.assertEquals(pkg,"io.appium.android.apis");
+    }
+}
