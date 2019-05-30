@@ -23,7 +23,7 @@ public class Elements{
     @FindBy(id = "com.google.blockly.demo:id/iv_me")
     private WebElement iv_me;
     @FindBy(id = "com.google.blockly.demo:id/et_userEmailOrPhone")
-    private WebElement usr_Email;
+    private WebElement usr_name;
     @FindBy(id = "com.google.blockly.demo:id/et_userPassword")
     private WebElement usr_pwd;
     @FindBy(id = "com.google.blockly.demo:id/btn_login")
