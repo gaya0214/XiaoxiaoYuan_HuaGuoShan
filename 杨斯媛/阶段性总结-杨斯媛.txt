@@ -1,0 +1,15 @@
+实训第十五周 阶段性总结
+具体完成事项：
+性能测试：
+1.对bugfreee3.0.3进行了测试计划、方案、用例的书写
+2.进行了new bug和new case的脚本录制
+3.对new bug和new case的脚本进行检查点和事务点的插入
+4.使用Controller进行场景测试，并且进行了递增的压力测试
+
+功能测试：
+1.对小小猿进行全面的了解
+2.进行环境搭建，缺陷报告，缺陷列表和测试功能列表
+3.使用Monkey对小小猿进行稳定测试，并提交Monkey测试分析报告
+4.使用Java+Appium编写二十条测试用例
+
+github地址：https://github.com/Yangsiyuan/XiaoxiaoYuan_HuaGuoShan/tree/master/%E6%9D%A8%E6%96%AF%E5%AA%9B
