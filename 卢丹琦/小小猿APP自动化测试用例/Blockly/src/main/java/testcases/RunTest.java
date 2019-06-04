@@ -11,6 +11,7 @@ public class RunTest extends BasePrepare {
     @Test
     public void runSuccessful() throws InterruptedException {
 
+        //成功将组装好的模块运行的测试
         CreatePage createPage = new CreatePage(driver);
         createPage.create();
         Thread.sleep(1000);

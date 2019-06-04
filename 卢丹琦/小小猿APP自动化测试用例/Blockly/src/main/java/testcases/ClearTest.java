@@ -10,6 +10,7 @@ public class ClearTest extends BasePrepare {
     @Test
     public void deleteSuccessful() throws InterruptedException {
 
+        //清空所创作界面成功的测试
         CreatePage createPage = new CreatePage(driver);
         createPage.create();
         Thread.sleep(1000);
