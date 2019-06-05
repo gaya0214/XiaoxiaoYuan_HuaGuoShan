@@ -1,17 +1,15 @@
 package com.example.xiaoxiaoyuantest;
 
-import android.support.test.InstrumentationRegistry;
-import android.support.test.uiautomator.UiCollection;
-import android.support.test.uiautomator.UiDevice;
-import android.support.test.uiautomator.UiObject;
-import android.support.test.uiautomator.UiObjectNotFoundException;
-import android.support.test.uiautomator.UiSelector;
+import com.android.uiautomator.core.UiDevice;
+import com.android.uiautomator.core.UiObject;
+import com.android.uiautomator.core.UiObjectNotFoundException;
+import com.android.uiautomator.core.UiSelector;
 
 import org.testng.annotations.Test;
 public class Uitest {
     private UiDevice device;
     @Test
-    public Uitest(UiDevice mDevice, UiDevice device) {
+    public Uitest(UiDevice mDevice, UiDevice device) throws UiObjectNotFoundException {
         this.device = device;
         mDevice =UiDevice.getInstance(InstumentationRegistryt.getInstrumentation());
        mDevice.pressHome();
@@ -41,7 +39,7 @@ public class Uitest {
         main.click();
     }
 
-    public void test2(){
+    public void test2() throws UiObjectNotFoundException {
         //点击声音按钮，是否能关闭声音
         UiObject btn1 = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/iv_setting"));
         btn1.click();
@@ -49,7 +47,7 @@ public class Uitest {
         btn1.click();
     }
     @Test
-    public void test3(){
+    public void test3() throws UiObjectNotFoundException {
         //点击“我”
         UiObject me = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/iv_me"));
         me.click();
@@ -67,14 +65,14 @@ public class Uitest {
 
     }
     @Test
-    public void test4(){
+    public void test4() throws UiObjectNotFoundException {
         //添加手机号
         UiObject phonenum = new UiObject(new UiSelector().resourceId("et_userPhone"));
         phonenum.click();
         phonenum.setText("18889811131");
     }
     @Test
-    public void test5(){
+    public void test5() throws UiObjectNotFoundException {
         //添加出生日期
         UiObject brithday = new UiObject(new UiSelector().resourceId("et_userBirthday"));
         brithday.setText("1998-10-10");
@@ -90,7 +88,7 @@ public class Uitest {
         }
     }
     @Test
-    public void test6(){
+    public void test6() throws UiObjectNotFoundException {
         //点击go
         UiObject go = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/iv_arts"));
         go.click();
@@ -101,7 +99,7 @@ public class Uitest {
         qx.click();
     }
     @Test
-    public void test7(){
+    public void test7() throws UiObjectNotFoundException {
         //点击第三个星星，并点击开始
         UiObject start = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/btn_2"));
         start.click();
@@ -112,7 +110,7 @@ public class Uitest {
         question.click();
     }
     @Test
-    public void test8(){
+    public void test8() throws UiObjectNotFoundException {
         //点击运行
         UiObject run = new UiObject(new UiSelector().resourceId("btn_run"));
         run.click();
@@ -124,7 +122,7 @@ public class Uitest {
         jump.click();
     }
     @Test
-    public void test9(){
+    public void test9() throws UiObjectNotFoundException {
         UiObject start = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/btn_2"));
         start.click();
         UiObject begin = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/btn_question_begin"));
@@ -134,31 +132,31 @@ public class Uitest {
         question.click();
     }
     @Test
-    public void test10(){
+    public void test10() throws UiObjectNotFoundException {
         //点击运行
         UiObject run = new UiObject(new UiSelector().resourceId("btn_run"));
         run.click();
     }
     @Test
-    public void test11(){
+    public void test11() throws UiObjectNotFoundException {
         //点击判读
         UiObject adjust = new UiObject(new UiSelector().resourceId("btn_adjust"));
         adjust.click();
     }
     @Test
-    public void test12(){
+    public void test12() throws UiObjectNotFoundException {
         //点击重试
         UiObject try1 = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/btn_dialog_try"));
         try1.click();
     }
     @Test
-    public void test13(){
+    public void test13() throws UiObjectNotFoundException {
         //点击清空
         UiObject clear = new UiObject(new UiSelector().resourceId("btn_clear"));
         clear.click();
     }
     @Test
-    public void test14(){
+    public void test14() throws UiObjectNotFoundException {
         //放大界面
         UiObject bigbtn = new UiObject(new UiSelector().resourceId("com.google.blockly.demo:id/blockly_zoom_in_button"));
         bigbtn.click();
@@ -171,7 +169,7 @@ public class Uitest {
 
     }
     @Test
-    public void test15(){
+    public void test15() throws UiObjectNotFoundException {
         //点击返回
         UiObject return1 = new UiObject(new UiSelector().resourceId("btn_return"));
         return1.click();
