@@ -1,21 +1,18 @@
 package Base;
 
-import Page.WebDriverEngine;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import Page.WebDriverEngine;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.URL;
 
 import io.appium.java_client.android.AndroidDriver;
+import Page.WebDriverEngine;
 
 public class BaseTest{
     AndroidDriver<WebElement> driver;
-    public WebDriverEngine webtest;
+    public WebDriverEngine web;
     @BeforeSuite
     public void startApp() throws Exception{
         File classpathRoot = new File(System.getProperty("user.dir"));

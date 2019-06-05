@@ -10,6 +10,7 @@ public class BackTest extends BasePrepare {
     @Test
     public void backSuccessful() throws InterruptedException {
 
+        //在创作模块时返回到主界面的成功测试情况
         CreatePage createPage = new CreatePage(driver);
         createPage.create();
         Thread.sleep(1000);

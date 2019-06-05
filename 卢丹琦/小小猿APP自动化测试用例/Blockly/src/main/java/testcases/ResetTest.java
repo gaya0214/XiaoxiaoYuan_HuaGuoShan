@@ -11,6 +11,7 @@ public class ResetTest extends BasePrepare {
     @Test
     public void deleteSuccessful() throws InterruptedException {
 
+        //成功将已经布置好的模块删除的测试
         CreatePage createPage = new CreatePage(driver);
         createPage.create();
         Thread.sleep(1000);
