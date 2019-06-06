@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" > <!--parallel="true"  并行-->
+    <test name="Xxy_All_Test" >
+        <classes>
+            <class name="testcases.LoginPageTest" />
+            <class name="testcases.CreatePageTest" />
+            <class name="testcases.GoPageTest" />
+            <class name="testcases.RegisterPageTest" />
+            <class name="testcases.MenuPageTest" />
+            <class name="testcases.TvPageTest" />
+        </classes>
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+    </test>
+</suite>

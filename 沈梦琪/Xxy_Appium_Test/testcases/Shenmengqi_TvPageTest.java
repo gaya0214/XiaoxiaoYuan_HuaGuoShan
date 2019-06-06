@@ -11,7 +11,7 @@ public class TvPageTest extends BaseTest {
     public void playlist(){
         new TvPage(getDriver());
         System.out.println(getDriver().currentActivity());
-        Assert.assertEquals("",getDriver().currentActivity());
+        Assert.assertEquals("com.google.blockly.android.demo.HomePage",getDriver().currentActivity());
     }
 
     @Test
@@ -19,7 +19,7 @@ public class TvPageTest extends BaseTest {
         TvPage tvPage = new TvPage(getDriver());
         tvPage.play(1);
         System.out.println(getDriver().currentActivity());
-        Assert.assertEquals("",getDriver().currentActivity());
+        Assert.assertEquals("com.google.blockly.android.demo.VideoActivity",getDriver().currentActivity());
     }
 
     @Test

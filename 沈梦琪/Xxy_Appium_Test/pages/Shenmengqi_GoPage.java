@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
 
@@ -39,8 +41,8 @@ public class GoPage {
 
     //闯关确认界面
     public void forsure(int i){
-        i=i-1;
-        WebElement btn_num = driver.findElement(By.id("com.google.blockly.demo:id/btn_"+i));
+        List<WebElement> list  = driver.findElements(By.className("android.widget.ImageView"));
+        WebElement btn_num = list.get(i--);
         action.click(btn_num);
     }
     //从关卡选择界面回到首页
@@ -70,6 +72,7 @@ public class GoPage {
     //进入答题界面，先登录
     public GoPage(AndroidDriver driver){
         PageFactory.initElements(driver,this);//与@FindBy同时出现的
+        this.driver=driver;
         action=new Actions(driver);
         action.click(ll_go);
         action.click(go);

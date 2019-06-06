@@ -20,7 +20,7 @@ public class TvPage {
     private WebElement pause;
 
     public void play(int i){
-        List<WebElement> playlist = driver.findElements(By.id("com.google.blockly.demo:id/tv_athor_lesson"));
+        List<WebElement> playlist = driver.findElements(By.id("com.google.blockly.demo:id/tv_title_lesson"));
         WebElement playnode = playlist.get(i--);
         action.click(playnode);
     }

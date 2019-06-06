@@ -11,7 +11,7 @@ public class RegisterPage {
 
     @FindBy(id = "com.google.blockly.demo:id/ll_go")
     private WebElement ll_go;
-    @FindBy(id = "com.google.blockly.demo:id/iv_spin")
+    @FindBy(className = "android.widget.TextView")
     private WebElement list;
     @FindBy(id = "com.google.blockly.demo:id/iv_me")
     private WebElement mine;
@@ -20,16 +20,17 @@ public class RegisterPage {
     @FindBy(id = "com.google.blockly.demo:id/et_userEmailOrPhone")
     private WebElement reg_name;
     @FindBy(id = "com.google.blockly.demo:id/et_userPassword")
-            private WebElement reg_pwd;
+    private WebElement reg_pwd;
     @FindBy(id = "com.google.blockly.demo:id/et_reWriteUserPassword")
-            private WebElement reg_sure_pwd;
+    private WebElement reg_sure_pwd;
     @FindBy(id = "com.google.blockly.demo:id/btn_register")
-            private WebElement reg_btn;
+    private WebElement reg_btn;
 
-    public void register(String name,String pwd1,String pwd2){
+    public void register(String name,String pwd1,String pwd2) throws Exception{
         action.click(list);
         action.click(mine);
         action.click(register);
+        Thread.sleep(2);
         action.type(reg_name,name);
         action.type(reg_pwd,pwd1);
         action.type(reg_sure_pwd,pwd2);
