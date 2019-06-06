@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/android.jar')
+    implementation files('libs/commons-io-2.6.jar')
+    implementation files('libs/commons-lang3-3.8.jar')
+    implementation files('libs/freemarker.jar')
+    implementation files('libs/java-client-7.0.0.jar')
+    implementation files('libs/javax.mail.jar')
+    implementation files('libs/log4j-api-2.11.1.jar')
+    implementation files('libs/log4j-core-2.11.1.jar')
+    implementation files('libs/selenium-server-standalone-3.141.59.jar')
+    implementation files('libs/slf4j-api-1.7.25.jar')
+    implementation files('libs/uiautomator.jar')
+    implementation 'org.testng:testng:6.9.6'
+    implementation files('libs/android-stubs-src.jar')
+    implementation 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
