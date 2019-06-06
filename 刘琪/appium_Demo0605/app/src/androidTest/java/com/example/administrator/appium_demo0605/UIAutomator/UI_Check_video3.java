@@ -1,16 +1,16 @@
-package com.example.huaguoshan.UIAutomator;
+package com.example.administrator.appium_demo0605.UIAutomator;
 
-import com.android.uiautomator.core.UiDevice;
-import com.android.uiautomator.core.UiObject;
-import com.android.uiautomator.core.UiSelector;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.uiautomator.UiDevice;
+import android.support.test.uiautomator.UiObject;
+import android.support.test.uiautomator.UiSelector;
 
 import org.junit.Test;
-
-/*8.查看教程视频2*/
-public class UI_Check_video2 {
+/*9.查看教程视频3*/
+public class UI_Check_video3 {
     private UiDevice device;
     @Test
-    public  void ui_check_video2() throws Exception{
+    public  void ui_check_video3() throws Exception{
         UI_Login.ui_login();
 
         device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());

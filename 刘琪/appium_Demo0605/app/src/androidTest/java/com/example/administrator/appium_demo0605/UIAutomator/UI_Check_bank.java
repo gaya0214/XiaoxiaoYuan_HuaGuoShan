@@ -1,8 +1,10 @@
-package com.example.huaguoshan.UIAutomator;
+package com.example.administrator.appium_demo0605.UIAutomator;
+import android.support.test.InstrumentationRegistry;
+import android.support.test.uiautomator.UiDevice;
+import android.support.test.uiautomator.UiObject;
+import android.support.test.uiautomator.UiSelector;
 
-import com.android.uiautomator.core.UiDevice;
-import com.android.uiautomator.core.UiObject;
-import com.android.uiautomator.core.UiSelector;
+import org.junit.Test;
 
 import org.junit.Test;
 /*14.查看题库*/
