@@ -23,9 +23,9 @@ public class Elements{
     @FindBy(id = "com.google.blockly.demo:id/iv_me")
     private WebElement iv_me;
     @FindBy(id = "com.google.blockly.demo:id/et_userEmailOrPhone")
-    private WebElement usr_name;
+    private WebElement user_name;
     @FindBy(id = "com.google.blockly.demo:id/et_userPassword")
-    private WebElement usr_pwd;
+    private WebElement user_pwd;
     @FindBy(id = "com.google.blockly.demo:id/btn_login")
     private WebElement btn_login;
     @FindBy(id = "com.google.blockly.demo:id/btn_question_begin")
@@ -38,4 +38,8 @@ public class Elements{
     private WebElement btn_next;
     @FindBy(id = "com.google.blockly.demo:id/btn_pre")
     private WebElement btn_pre;
+    @FindBy(id="com.google.blockly.demo:id/iv_setting")
+    private WebElment iv_setting;
+    @FindBy(id="com.google.blockly.demo:id/et_reWriteUserPassword")
+    private WebElement writ_pwd;
 }
