@@ -170,9 +170,9 @@ bugfree.3.0.3的result管理界面
 <p>
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 LoadRunner的主界面
-&nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 LoadRunner中new bug脚本
-&nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp 
 LoadRunner中new case脚本
 </p>
 <p>
@@ -183,9 +183,9 @@ LoadRunner中new case脚本
 &nbsp &nbsp
 LoadRunner的Controller界面用于场景设计 
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-LoadRunner中new case脚本，30并发量得到的压力测试报告中错
+LoadRunner中new case脚本
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-误率的图表，是通过LoadRunner中Analysis组件实现的
+，30并发量得到的压力测试报告中错误率的图表，是通过LoadRunner中Analysis组件实现的
 </p>
 <p>
 <img src="./image/new case30点击率.png" width=400 height=250 />
