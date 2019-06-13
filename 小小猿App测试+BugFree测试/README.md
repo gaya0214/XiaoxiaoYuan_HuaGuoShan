@@ -195,8 +195,9 @@ LoadRunner中new case脚本，30并发量得到的压力测试报
 LoadRunner中new case脚本，30并发量得到的压力测试
 &nbsp &nbsp 
 LoadRunner中new case脚本，30并发量得到的压力测试
-报告中点击率的图表，是通过LoadRunner中Analysis组件实现的
-报告中吞吐量的图表，是通过LoadRunner中Analysis组件实现的
+报告中点击率的图表，通过LoadRunner中Analysis组件实现
+&nbsp &nbsp &nbsp &nbsp 
+报告中吞吐量的图表，通过LoadRunner中Analysis组件实现
 </p>
 <p>
 <img src="./image/Badboy脚本录制.png" width=400 height=250 />
@@ -216,7 +217,7 @@ Badboy脚本录制2
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 JMeter的场景设计界面 
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 JMeter登录脚本界面
 </p>
 <p>
