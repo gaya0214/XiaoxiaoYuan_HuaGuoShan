@@ -196,7 +196,7 @@ LoadRunner中new case脚本，30并发量得到的压力测试
 &nbsp &nbsp 
 LoadRunner中new case脚本，30并发量得到的压力测试
 报告中点击率的图表，通过LoadRunner中Analysis组件实现
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 报告中吞吐量的图表，通过LoadRunner中Analysis组件实现
 </p>
 <p>
@@ -225,10 +225,10 @@ JMeter登录脚本界面
 <img src="./image/JMeter的new case脚本.png" width=400 height=250 />
 </p>
 <p>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 JMeter的new bug脚本界面 
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp 
 JMeter的new case脚本界面
 </p>
 <p>
