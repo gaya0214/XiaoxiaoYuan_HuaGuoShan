@@ -192,7 +192,6 @@ LoadRunner中new case脚本，30并发量得到的压力测试报
 <img src="./image/new case30吞吐量.png" width=400 height=250 />
 </p>
 <p>
-&nbsp &nbsp 
 LoadRunner中new case脚本，30并发量得到的压力测试报告中点
 &nbsp &nbsp &nbsp &nbsp 
 LoadRunner中new case脚本，30并发量得到的压力测试报告中吞
