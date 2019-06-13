@@ -146,7 +146,10 @@ bugfree.3.0.3的bug管理界面
 <img src="./image/bugfree3.0.3新建bug界面.png" width=400 height=250 />
 <img src="./image/bugfree3.0.3的case界面.png" width=400 height=250 />
 </p>
-<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bugfree3.0.3的新建bug界面 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp bugfree.3.0.3的case管理界面
+<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+bugfree3.0.3的新建bug界面 
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+bugfree.3.0.3的case管理界面
 </p>
 <p>
 <img src="./image/bugfree3.0.3新建case界面.png" width=400 height=250 />
