@@ -192,13 +192,13 @@ LoadRunner中new case脚本，30并发量得到的压力测试报
 <img src="./image/new case30吞吐量.png" width=400 height=250 />
 </p>
 <p>
-LoadRunner中new case脚本，30并发量得到的压力测试报告中点
-&nbsp &nbsp &nbsp &nbsp 
-LoadRunner中new case脚本，30并发量得到的压力测试报告中吞
+LoadRunner中new case脚本，30并发量得到的压力测试
+&nbsp &nbsp 
+LoadRunner中new case脚本，30并发量得到的压力测试
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-击率的图表，是通过LoadRunner中Analysis组件实现的
+报告中点击率的图表，是通过LoadRunner中Analysis组件实现的
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-吐量的图表，是通过LoadRunner中Analysis组件实现的
+报告中吞吐量的图表，是通过LoadRunner中Analysis组件实现的
 </p>
 <p>
 <img src="./image/Badboy脚本录制.png" width=400 height=250 />
