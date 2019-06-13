@@ -137,25 +137,25 @@ BugFree是一个对bug进行在线管理的网站
 
 <p>
 <img src="./image/bugfree3.0.3登录界面.png" width=400 height=250 />
-<img src="./image/bugfree.3.0.3的bug管理界面.jpg" width=400 height=250 />
+<img src="./image/bugfree3.0.3的bug管理界面.png" width=400 height=250 />
 </p>
 <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bugfree3.0.3登录界面 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp bugfree.3.0.3的bug管理界面
 </p>
 <p>
-<img src="./image/bugfree3.0.3的新建bug界面.png" width=400 height=250 />
-<img src="./image/bugfree.3.0.3的case界面.png" width=400 height=250 />
+<img src="./image/bugfree3.0.3新建bug界面.png" width=400 height=250 />
+<img src="./image/bugfree3.0.3的case界面.png" width=400 height=250 />
 </p>
 <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bugfree3.0.3的新建bug界面 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp bugfree.3.0.3的case管理界面
 </p>
 <p>
 <img src="./image/bugfree3.0.3新建case界面.png" width=400 height=250 />
-<img src="./image/bugfree.3.0.3的result界面.png" width=400 height=250 />
+<img src="./image/bugfree3.0.3的result界面.png" width=400 height=250 />
 </p>
 <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp bugfree3.0.3新建case界面 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp bugfree.3.0.3的result管理界面
 </p>
 <p>
 <img src="./image/LR主界面.png" width=266 height=250 />
-<img src="./image/LR的new bug脚本.jpg" width=266 height=250 />
+<img src="./image/LR的new bug脚本.png" width=266 height=250 />
 <img src="./image/LR的new case脚本.png" width=266 height=250 />
 </p>
 <p>
@@ -168,7 +168,7 @@ LoadRunner中new case脚本，通过VuGen录制
 </p>
 <p>
 <img src="./image/LR的Controller.png" width=400 height=250 />
-<img src="./image/new case错误率.jpg" width=400 height=250 />
+<img src="./image/new case错误率.png" width=400 height=250 />
 </p>
 <p>
 &nbsp &nbsp
@@ -203,7 +203,7 @@ Badboy脚本录制1
 Badboy脚本录制2
 </p>
 <p>
-<img src="./image/JMeter的场景设计.png" width=400 height=250 />
+<img src="./image/JMeter场景设计.png" width=400 height=250 />
 <img src="./image/JMeter登录脚本.png" width=400 height=250 />
 </p>
 <p>
@@ -223,10 +223,10 @@ JMeter的new bug脚本界面
 JMeter的new case脚本界面
 </p>
 <p>
-<img src="./image/JMeter并发100.png"width=800 height=200 />
+<img src="./image/JMeter并发100.jpg"width=800 height=200 />
 </p>
 <p>使用JMeter对脚本进行并发执行，并发量为100，事务为50%用户登录，30%写影评，20%做回复</p>
 <p>
-<img src="./image/JMeter并发200.png" width=800 height=200/>
+<img src="./image/JMeter并发200.jpg" width=800 height=200/>
 </p>
 <p>使用JMeter对脚本进行并发执行，并发量为100，事务为50%用户登录，30%写影评，20%做回复</p>
