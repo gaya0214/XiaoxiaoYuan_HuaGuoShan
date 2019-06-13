@@ -170,10 +170,10 @@ bugfree.3.0.3的result管理界面
 <p>
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 LoadRunner的主界面
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-LoadRunner中new bug脚本,通过VuGen录制
+&nbsp &nbsp &nbsp &nbsp 
+LoadRunner中new bug脚本
 &nbsp &nbsp 
-LoadRunner中new case脚本，通过VuGen录制
+LoadRunner中new case脚本
 </p>
 <p>
 <img src="./image/LR的Controller.png" width=400 height=250 />
