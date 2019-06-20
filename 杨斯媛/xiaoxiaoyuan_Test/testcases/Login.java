@@ -1,6 +1,12 @@
 package testcases;
 
-import class Login extends Operation{
+import com.pages.ElementsFinder;
+import io.appium.java_client.android.AndroidDriver;
+import utils.Actions;
+import org.openqa.selenium.support.PageFactory;
+import com.base.BasePrepare;
+
+class Login extends BasePrepare{
     public Login(AndroidDriver driver){
         PageFactory.initElement(driver.this);
         action=new Action(driver);

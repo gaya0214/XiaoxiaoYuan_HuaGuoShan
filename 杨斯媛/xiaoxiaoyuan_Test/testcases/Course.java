@@ -1,8 +1,10 @@
 package testcases;
 
-import org.testng.annotations.Test;
-
-import base.BasePrepare;
+import com.pages.ElementsFinder;
+import io.appium.java_client.android.AndroidDriver;
+import utils.Actions;
+import org.openqa.selenium.support.PageFactory;
+import com.base.BasePrepare;
 
 public class Course extends BasePrepare{
     //进入course

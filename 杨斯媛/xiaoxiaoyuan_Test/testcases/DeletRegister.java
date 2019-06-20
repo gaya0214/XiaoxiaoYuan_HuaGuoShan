@@ -1,10 +1,10 @@
 package testcases;
 
-import pages.Elements;
+import com.pages.ElementsFinder;
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
 import org.openqa.selenium.support.PageFactory;
-import base.BasePrepare;
+import com.base.BasePrepare;
 
 public class DeletRegister extends BasePrepare{
     //删除用户
@@ -15,10 +15,10 @@ public class DeletRegister extends BasePrepare{
     //验证删除之后是否还能登录
     @Test
     public void loginTest(){
-        action.click(iv_spin);
-        action.click(iv_me);
-        action.type(usr_name,name);
-        action.type(usr_pwd,password);
-        action.click(btn_login);
+        action.click("id=iv_spin");
+        action.click("id=iv_me");
+        action.type("id=usr_name,name");
+        action.type("id=usr_pwd,password");
+        action.click("id=btn_login");
     }
 }

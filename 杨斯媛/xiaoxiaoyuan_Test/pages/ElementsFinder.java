@@ -38,14 +38,20 @@ public class Elements{
         {
             locator=locator.substring("class=".length());
             return driver.findElement(By.className(locator));
-        }else if ((target.startsWith("class="))
+        }else if ((target.startsWith("text="))
         {
-            locator=locator.substring("class=".length());
-            return driver.findElement(By.className(locator));
+            locator=locator.substring("text=".length());
+            return driver.findElement(By.name(locator));
+            //这里的text可以认为是name
+        }else if ((target.startsWith("access="))
+        {
+            locator=locator.substring("access=".length());
+            return driver.findElmentByAccessibilityId(locator));
+        }else if ((target.startsWith("xpath="))
+        {
+            locator=locator.substring("xpath=".length());
+            return driver.findElmentByXPath(locator));
         }
     }
-    public void testFindElmentByAccessibilityId(){
-        //通过Accessibility查找页面元素，在Android布局文件中是"content-desc"
-        List<WebElement>searchParametersElement=(List<WebElement>)driver.findElementsByAccessibility
-    }
+
 }
