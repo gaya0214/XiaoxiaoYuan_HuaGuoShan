@@ -7,12 +7,17 @@ import org.openqa.selenium.support.PageFactory;
 import com.base.BasePrepare;
 
 public class DeletRegister extends BasePrepare{
+
+    //先登录
+    Login.Loginto();
+
     //删除用户
     @Test
     public void DeletRegist(){
-        action.click(tv_setting);
+        action.click("id=tv_setting");
     }
     //验证删除之后是否还能登录
+
     @Test
     public void loginTest(){
         action.click("id=iv_spin");

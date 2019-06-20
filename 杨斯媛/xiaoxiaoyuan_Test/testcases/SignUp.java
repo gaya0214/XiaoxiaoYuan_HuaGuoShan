@@ -16,7 +16,7 @@ public class SignUp extends BasePrepare{
             action.click("id=user_pwd");
             action.type("id=user_pwd",this.user_pwd);
             action.click("id=write_pwd");
-            action.type("id=write_pwd,this.write_pwd);
+            action.type("id=write_pwd",this.write_pwd);
             action.click("id=btn_register");
         }
 }

@@ -25,7 +25,7 @@ public class HomeTest extends BasePrepare {
 
     //进入CREAT
     @Test
-    public void creat(){
+    public void create(){
         web.click("id=iv_creat");
     }
 

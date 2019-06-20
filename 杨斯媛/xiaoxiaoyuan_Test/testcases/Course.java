@@ -9,7 +9,7 @@ import com.base.BasePrepare;
 public class Course extends BasePrepare{
     //进入course
     public void getinto(){
-        action.click(iv_tv);
+        action.click("id=iv_tv");
     }
     //查看教程
     public void watch(){
@@ -18,9 +18,10 @@ public class Course extends BasePrepare{
     }
     //暂停教程
     public void pause(){
-        action.click(bt_start_pause);
+        action.click("id=bt_start_pause");
     }
     //退出教程
+    //因为界面上没有设置返回键，只能点击手机的返回键
     public void quit(){
         action.KeyBack();
     }
