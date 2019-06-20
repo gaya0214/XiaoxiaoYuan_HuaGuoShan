@@ -1,11 +1,12 @@
 package testcases;
 
-import Page.WebDriverEngine;
-import org.testng.annotations.Test;
+import com.pages.ElementsFinder;
+import io.appium.java_client.android.AndroidDriver;
+import utils.Actions;
+import org.openqa.selenium.support.PageFactory;
+import com.base.BasePrepare;
 
-import Base.BaseTest;
-
-public class MeOperation{
+public class MeOperation extends BasePrepare{
     //修改个人信息
     @Test
     public void changeMessage() {
@@ -35,16 +36,16 @@ public class MeOperation{
     //删除好友
     @Test
     public void friendsList(){
-        action.click(ll_me_my_friend);
-        action.click(btn_friend_delete);
+        action.click("id=ll_me_my_friend");
+        action.click("id=btn_friend_delete");
     }
 
     //添加好友
     @Test
     public void friendsAdd(){
-        action.click(ll_me_my_friend);
-        action.type(et_add_friend,"admin");
-        action.click(btn_add_friend);
+        action.click("id=ll_me_my_friend");
+        action.type("id=et_add_friend","admin");
+        action.click("id=btn_add_friend");
     }
 
     //进入好友申请
