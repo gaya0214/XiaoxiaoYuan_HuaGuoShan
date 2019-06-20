@@ -1,10 +1,12 @@
 package testcases;
+
 import pages.Elements;
 import io.appium.java_client.android.AndroidDriver;
 import utils.Actions;
 import org.openqa.selenium.support.PageFactory;
+import base.BasePrepare;
 
-public class DeletRegister extends BaseTest{
+public class DeletRegister extends BasePrepare{
     //删除用户
     @Test
     public void DeletRegist(){

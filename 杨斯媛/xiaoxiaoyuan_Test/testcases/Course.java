@@ -2,9 +2,9 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import Base.BaseTest;
+import base.BasePrepare;
 
-public class Course extends BaseTest{
+public class Course extends BasePrepare{
     //进入course
     public void getinto(){
         action.click(iv_tv);

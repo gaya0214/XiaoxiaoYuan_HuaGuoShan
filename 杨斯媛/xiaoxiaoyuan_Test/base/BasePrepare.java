@@ -23,12 +23,15 @@ import utils.Actions;
 
 public class AndroidCreateSessionTest1{
     private AndroidDriver<WebElement> driver;
+    private static AppiumDriverLocalService service;
+    private final String PACKAGE="com.google.blockly.demo";
+
     @BeforeClass
     public void setUp()throes Exception{
         File classpathRoot=new File(System.getProperty("user.dir"));
         File appDir=new File(classpathRoot,"/apps");
         File app=new File(appDir.getCanonicalPath(),"xxy.apk");
-        DesiredCapabilities capabilities=new DesiredCapabilities();
+        DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","127.0.0.1:62001");
         capabilities.setCapability("app",aap.getAbsolutePath());
         capabilities.setCapability("appPackage","com.google.blockly.demo");
@@ -39,6 +42,7 @@ public class AndroidCreateSessionTest1{
     public void tearDown(){
         driver.quit();
     }
+
     @Test
     public void testCreateSession(){
         String activity.driver.currentActivity();
@@ -46,4 +50,6 @@ public class AndroidCreateSessionTest1{
         Assert.assertEuals(activity,".ApiDemos");
         Assert.assertEquals(pkg,"io.appium.android.apis");
     }
+
+
 }

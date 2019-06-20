@@ -14,31 +14,5 @@ public class Operation {
     Action action;
     WebDriver driver;
 
-    public void sure(int i) {
-        WebElement btn_num = driver.findElement( By.id( "com.google.blockly.demo:id/btn_" + i ) );
-        action.click( btn_num );
-    }
-
-    public void toindex() {
-        action.click( btn_return );
-    }
-
-    public void question_begin() {
-        sure( i-- );
-        action.click( btn_question_begin );
-    }
-
-    public void question_cancel() {
-        sure( i-- );
-        action.click( btn_question_cancel );
-    }
-
-    public void next_page() {
-        action.click( btn_next );
-    }
-
-    public void pre_page() {
-        action.click( btn_pre );
-    }
 
 }
