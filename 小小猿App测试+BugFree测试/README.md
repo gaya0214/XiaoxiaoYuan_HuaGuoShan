@@ -19,25 +19,25 @@
 
 - 刘琪（测试经理、测试负责人、测试工程师）
   - Email：[1138322644@qq.com](mailto:1138322644@qq.com) 
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%88%98%E7%90%AA](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%88%98%E7%90%AA)
+  - Github：[https://github.com/gaya0214]（https://github.com/gaya0214）
 - 卢丹琦（测试架构师、测试工程师）
   - Email：[531603273@qq.com](mailto:531603273@qq.com)
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%8D%A2%E4%B8%B9%E7%90%A6](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%8D%A2%E4%B8%B9%E7%90%A6)
+  - Github：[https://github.com/ludanqi](https://github.com/ludanqi)
 - 廉千慧（测试工程师）
   - Email：[597909747@qq.com](mailto:597909747@qq.com)
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%BB%89%E5%8D%83%E6%85%A7](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E5%BB%89%E5%8D%83%E6%85%A7)
+  - Github：[https://github.com/LianQianhui1998](https://github.com/LianQianhui1998)
 - 杨斯媛（测试工程师）
   - Email：[437895852@qq.com](mailto:437895852@qq.com)
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E6%9D%A8%E6%96%AF%E5%AA%9B](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E6%9D%A8%E6%96%AF%E5%AA%9B)
+  - Github：[https://github.com/Yangsiyuan](https://github.com/Yangsiyuan)
 - 沈梦琪（测试工程师）
   - Email：[shenmq163@163.com](mailto:shenmq163@163.com)
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E6%B2%88%E6%A2%A6%E7%90%AA](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E6%B2%88%E6%A2%A6%E7%90%AA)
+  - Github：[https://github.com/whatq](https://github.com/whatqi)
 - 范丽梅（测试工程师）
   - Email：[907385640@qq.com ](mailto:907385640@qq.com )
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E8%8C%83%E4%B8%BD%E6%A2%85](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E8%8C%83%E4%B8%BD%E6%A2%85)
+  - Github：[https://github.com/fanlimei](https://github.com/fanlimei)
 - 黄瑾然（测试工程师）
   - Email：[3029923422@qq.com](mailto:3029923422@qq.com)
-  - Github：[https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E9%BB%84%E7%91%BE%E7%84%B6](https://github.com/gaya0214/XiaoxiaoYuan_HuaGuoShan/tree/master/%E9%BB%84%E7%91%BE%E7%84%B6)
+  - Github：[https://github.com/huangjinran1999](https://github.com/huangjinran1999)
 
 ### 项目截图
 
